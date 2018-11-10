@@ -9,5 +9,9 @@ public class Mensch {
 			zuSagen = "Ich bin " + Name;
 			return zuSagen;
 		}
+		
+		public double addiere (double z1, double z2) {
+			return z1 + z2;
+		}
 	
 }
