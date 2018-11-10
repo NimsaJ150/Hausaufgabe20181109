@@ -20,5 +20,12 @@ class Menschtest {
 		double zahl = m.addiere(5.3, 6.7);
 		assertEquals(12, zahl);
 	}
+	
+	@Test
+	void alterBerechnenTest() {
+		m = new Mensch();
+		double zahl = m.alterBerechnen(2000);
+		assertEquals(18, zahl);
+	}
 
 }

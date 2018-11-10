@@ -13,5 +13,10 @@ public class Mensch {
 		public double addiere (double z1, double z2) {
 			return z1 + z2;
 		}
+		
+		public int alterBerechnen(int geburtsjahr) {
+			this.Alter = 2018-geburtsjahr;
+			return Alter;
+		}
 	
 }
